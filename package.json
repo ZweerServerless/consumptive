@@ -1,7 +1,7 @@
 {
   "name": "consumptive",
   "version": "0.0.1",
-  "description": "A serverless application to handle everything about consumtives",
+  "description": "A serverless application to handle everything about consumptives",
   "main": "index.js",
   "scripts": {
     "serverless": "serverless",
@@ -24,14 +24,15 @@
   "homepage": "https://github.com/ZweerServerless/consumptive#readme",
   "dependencies": {
     "serverless": "^1.26.0",
-    "utils": "./lambda/utils"
+    "zweer-serverless-utils": "file:lambda/utils"
   },
   "devDependencies": {
-    "config-webpack": "./config/webpack",
     "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
-    "serverless-apig-s3": "^2.0.0"
+    "serverless-apig-s3": "^2.0.0",
+    "zweer-serverless-config-webpack": "file:config/webpack"
   }
 }
