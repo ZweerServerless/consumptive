@@ -1,0 +1,3 @@
+[submodule "config/webpack"]
+	path = config/webpack
+	url = https://github.com/ZweerServerless/config-webpack.git

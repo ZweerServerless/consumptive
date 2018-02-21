@@ -1,0 +1,30 @@
+{
+  "name": "consumptive",
+  "version": "0.0.1",
+  "description": "A serverless application to handle everything about consumtives",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZweerServerless/consumptive.git"
+  },
+  "keywords": [
+    "serverless",
+    "consumptive"
+  ],
+  "author": "Niccolò Olivieri <niccolo@olivieriachille.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZweerServerless/consumptive/issues"
+  },
+  "homepage": "https://github.com/ZweerServerless/consumptive#readme",
+  "devDependencies": {
+    "config-webpack": "./config/webpack",
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
