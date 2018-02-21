@@ -22,6 +22,10 @@
     "url": "https://github.com/ZweerServerless/consumptive/issues"
   },
   "homepage": "https://github.com/ZweerServerless/consumptive#readme",
+  "dependencies": {
+    "serverless": "^1.26.0",
+    "utils": "./lambda/utils"
+  },
   "devDependencies": {
     "config-webpack": "./config/webpack",
     "eslint": "^4.9.0",
@@ -29,8 +33,5 @@
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.4.0",
     "serverless-apig-s3": "^2.0.0"
-  },
-  "dependencies": {
-    "serverless": "^1.26.0"
   }
 }
